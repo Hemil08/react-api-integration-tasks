@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 🌐 Multi-API React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a multi-page React project that showcases the integration of several popular public APIs. The app is divided into themed sections with interactive functionality.
 
-## Available Scripts
+## 📚 Included Pages
 
-In the project directory, you can run:
+- 🐱 **Cat App**: Random cat images + favorites
+- 🐶 **Dog App**: Random dog images by breed
+- 📰 **News App**: Latest news with category filter
+- 💰 **Coin App**: Cryptocurrency search and data
+- 🌦 **Weather App**: Current weather by city
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🐱 Cat App
+- Random cat images from [The Cat API](https://thecatapi.com/)
+- Add images from a favorites list
 
-### `npm test`
+https://github.com/user-attachments/assets/c434e594-c985-445e-8856-15a795809803
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🐶 Dog App
+- Fetch random dog images or by breed from [Dog CEO API](https://dog.ceo/dog-api/)
+- Select breed from dropdown to view specific images
 
-### `npm run build`
+https://github.com/user-attachments/assets/1d107fb6-f9ff-443b-b61c-5df53b901934
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📰 News App
+- View top headlines with category filter using [News API](https://newsapi.org/)
+- Requires an API key
+- Categories like Technology, Health, Sports, etc.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://github.com/user-attachments/assets/76f8be9a-60a7-4bc0-8c44-f920f6f02b11
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💰 Coin App
+- Search for real-time cryptocurrency info using [CoinGecko API](https://www.coingecko.com/en/api)
+- Displays coin name, price, market cap, and more
+- No authentication needed
 
-### `npm run eject`
+https://github.com/user-attachments/assets/23dec679-8c45-426d-9a0c-81366c4110ec
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🌦 Weather App
+- Search weather by city using [OpenWeatherMap](https://openweathermap.org/api)
+- Shows temperature, condition, humidity, etc.
+- Requires a free API key
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://github.com/user-attachments/assets/55629c16-c966-4496-91c4-9c021cf4836e
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Installation
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/your-username/multi-api-react-app.git
+cd multi-api-react-app
+npm install
+npm start
